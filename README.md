@@ -2,8 +2,8 @@
 
 > 基于 [CCSH/IPTV](https://github.com/CCSH/IPTV) 开源项目，筛选国内可用源并经速度测试后精选而成。每个频道仅保留测速最优的 2-3 个源，卫视频道精简为 31 个省级卫视。
 
-[![GitHub stars](https://img.shields.io/github/stars/yourname/iptv?style=social)](https://github.com/yourname/iptv)
-[![GitHub forks](https://img.shields.io/github/forks/yourname/iptv?style=social)](https://github.com/yourname/iptv)
+[![GitHub stars](https://img.shields.io/github/stars/joy525525525/IPTV?style=social)](https://github.com/joy525525525/IPTV)
+[![GitHub forks](https://img.shields.io/github/forks/joy525525525/IPTV?style=social)](https://github.com/joy525525525/IPTV)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Channels](https://img.shields.io/badge/channels-130-brightgreen.svg)](#频道列表)
 [![Sources](https://img.shields.io/badge/sources-282-orange.svg)](#文件说明)
@@ -27,11 +27,19 @@
 
 将以下地址填入 IPTV 播放器即可：
 
+**主用地址（jsDelivr CDN，推荐）：**
 ```
-https://cdn.jsdelivr.net/gh/你的用户名/你的仓库名@main/live_lite_cn_best.m3u
+https://cdn.jsdelivr.net/gh/joy525525525/IPTV@main/live_lite_cn_best.m3u
 ```
 
-> 也可使用 `ghfast.top` 等 GitHub 加速代理替换前缀。
+**备用地址（主用失效时切换）：**
+```
+https://ghfast.top/https://raw.githubusercontent.com/joy525525525/IPTV/main/live_lite_cn_best.m3u
+https://raw.gitmirror.com/joy525525525/IPTV/main/live_lite_cn_best.m3u
+https://raw.kkgithub.com/joy525525525/IPTV/main/live_lite_cn_best.m3u
+```
+
+> jsDelivr 有缓存机制，更新文件后访问 https://purge.jsdelivr.net/gh/joy525525525/IPTV@main/live_lite_cn_best.m3u 可强制刷新缓存。
 
 ### 推荐播放器
 
